@@ -23,20 +23,8 @@ void main(){
                 printf("Median of sample is%f\n",me);
         }
 }
-
-                                                                        "me.c" 26L, 476C written
-y20cs146@rvrcse:~$ cc me.c
-y20cs146@rvrcse:~$ ./a.out
-Enter size of sample4
-Enter values of sample:1
-2
-3
-4
-Mean of the given sample is:2.500000
-Median of sample is2.500000
-y20cs146@rvrcse:~$ ./a.out
-Enter size of sample25
-Enter values of sample:13
+Enter size:25
+Enter data:13
 15
 16
 16
@@ -54,12 +42,11 @@ Enter values of sample:13
 33
 33
 35
-y20cs146@rvrcse:~$ vi me.c^C
-y20cs146@rvrcse:~$
+35
+35
 36
 40
 45
-32
+52
 70
-Mean of the given sample is:28.320000
-Median of sample is25.00000y20cs146@rvrcse:~$ vi me.c
+The mean is:29.120001The median is:25.000000
